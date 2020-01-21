@@ -35,7 +35,7 @@ namespace UnityEngine
 
 
         // Static Operators
-        public static bool operator ==(Vector2 v1, Vector2 v2) =>  v1.x == v2.y && v1.y == v2.y;
+        public static bool operator ==(Vector2 v1, Vector2 v2) =>  v1.x == v2.x && v1.y == v2.y;
         public static bool operator !=(Vector2 v1, Vector2 v2) => v1.x != v2.x || v1.y != v2.y; 
         public static Vector2 operator +(Vector2 a, Vector2 b) => new Vector2(a.x+b.x, a.y+b.y); 
         public static Vector2 operator +(Vector2 a, float f) => new Vector2(a.x+f, a.y+f); 
