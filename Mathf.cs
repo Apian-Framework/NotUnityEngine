@@ -9,6 +9,7 @@ namespace UnityEngine
         public const float RadToDeg = 360f / (PI * 2f);        
         public static float Sign(float x) => x < 0 ? -1f : 1f; // WATCH OUT! This is NOT the signum function, where sgn(0) = 0
         public static float Min(float a, float b) => (float)Math.Min(a,b);
+        public static float Max(float a, float b) => (float)Math.Max(a,b);        
         public static float Floor(float a) => (float)Math.Floor(a); 
 
         public static float Round(float a) => (float)Math.Round(a);

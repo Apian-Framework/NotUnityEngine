@@ -58,6 +58,11 @@ namespace UnityEngine
             this.y *= scale; 
         }
 
+        public override string ToString()
+        {
+            return $"({x}, {y})";
+        }
+
         // Static funcs
         public static float Distance(Vector2 a, Vector2 b) => (float)Math.Sqrt(Mathf.Square(b.x-a.x) + Mathf.Square(b.y-a.y));      
         public static float Dot(Vector2 a, Vector2 b) => (float)(a.x * b.x) + (a.y * b.y);
