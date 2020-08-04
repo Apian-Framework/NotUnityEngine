@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D8F6A837-7736-48C5-8414-E347F1939E85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine", "src\UnityEngine\UnityEngine.csproj", "{D0F8BE56-355D-4961-B972-E7DE196C0D83}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine", "src\NotUnityEngine\NotUnityEngine.csproj", "{D0F8BE56-355D-4961-B972-E7DE196C0D83}"
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
