@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D8F6A837-773
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotUnityEngine", "src\NotUnityEngine\NotUnityEngine.csproj", "{D0F8BE56-355D-4961-B972-E7DE196C0D83}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CB6C04C9-58FC-430A-B37E-9C9CCF8DFE74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotUnityEngine.Tests", "tests\NotUnityEngine.Tests\NotUnityEngine.Tests.csproj", "{89AA0128-77D0-41ED-9765-D786FE0A556B}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,8 +36,21 @@ Global
 		{D0F8BE56-355D-4961-B972-E7DE196C0D83}.Release|x64.Build.0 = Release|Any CPU
 		{D0F8BE56-355D-4961-B972-E7DE196C0D83}.Release|x86.ActiveCfg = Release|Any CPU
 		{D0F8BE56-355D-4961-B972-E7DE196C0D83}.Release|x86.Build.0 = Release|Any CPU
+		{89AA0128-77D0-41ED-9765-D786FE0A556B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AA0128-77D0-41ED-9765-D786FE0A556B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AA0128-77D0-41ED-9765-D786FE0A556B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{89AA0128-77D0-41ED-9765-D786FE0A556B}.Debug|x64.Build.0 = Debug|Any CPU
+		{89AA0128-77D0-41ED-9765-D786FE0A556B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{89AA0128-77D0-41ED-9765-D786FE0A556B}.Debug|x86.Build.0 = Debug|Any CPU
+		{89AA0128-77D0-41ED-9765-D786FE0A556B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AA0128-77D0-41ED-9765-D786FE0A556B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89AA0128-77D0-41ED-9765-D786FE0A556B}.Release|x64.ActiveCfg = Release|Any CPU
+		{89AA0128-77D0-41ED-9765-D786FE0A556B}.Release|x64.Build.0 = Release|Any CPU
+		{89AA0128-77D0-41ED-9765-D786FE0A556B}.Release|x86.ActiveCfg = Release|Any CPU
+		{89AA0128-77D0-41ED-9765-D786FE0A556B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D0F8BE56-355D-4961-B972-E7DE196C0D83} = {D8F6A837-7736-48C5-8414-E347F1939E85}
+		{89AA0128-77D0-41ED-9765-D786FE0A556B} = {CB6C04C9-58FC-430A-B37E-9C9CCF8DFE74}
 	EndGlobalSection
 EndGlobal
