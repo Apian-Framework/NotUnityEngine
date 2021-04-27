@@ -26,12 +26,12 @@ namespace UnityEngine
         public Vector2(Vector2 v) { x=v.x; y=v.y;}
 
         // IEquatable
-        public override int GetHashCode() => x.GetHashCode() + y.GetHashCode();
+        public override int GetHashCode() => x.GetHashCode() + (y*7).GetHashCode(); // Try to avoid "swap" collisions
 
         public override bool Equals(object obj)
         {
             if(obj is Vector2)
-                return Equals((Vector2)this);
+                return Equals((Vector2)obj);
             return false;
         }
         public bool Equals(Vector2 other) => (x == other.x && y == other.y);
