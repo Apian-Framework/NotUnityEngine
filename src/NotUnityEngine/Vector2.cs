@@ -19,7 +19,7 @@ namespace UnityEngine
         public static Vector2 zero { get { return zeroVector; }}
 
         public float magnitude {get {return (float)Math.Sqrt(x*x + y*y);}}
-        public Vector2 normalized {get {return this._doNormalize();} }
+        public Vector2 normalized {get {return this._DoNormalize();} }
 
         // ctors
         public Vector2(float _x, float _y) { x=_x; y=_y; }
@@ -30,8 +30,8 @@ namespace UnityEngine
 
         public override bool Equals(object obj)
         {
-            if(obj is Vector2)
-                return Equals((Vector2)obj);
+            if(obj is Vector2 vector)
+                return Equals(vector);
             return false;
         }
         public bool Equals(Vector2 other) => (x == other.x && y == other.y);
@@ -47,7 +47,7 @@ namespace UnityEngine
         public static Vector2 operator *(Vector2 a, float f) => new Vector2(a.x*f, a.y*f);
 
         // Instance funcs
-       private Vector2 _doNormalize()
+       private Vector2 _DoNormalize()
         {
             float mag = magnitude;
             float scale = mag > 0 ? 1.0f / magnitude : 0;
