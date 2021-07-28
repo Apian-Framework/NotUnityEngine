@@ -4,7 +4,6 @@ namespace UnityEngine
 {
     public static class Mathf
     {
-        // ReSharper disable MemberCanBePrivate.Global,UnusedMember.Global,FieldCanBeMadeReadOnly.Global,InconsistentNaming
         public const float PI = 3.1415926535897932384626433832795028841971693993751058209749445923078164062f;
         public const float DegToRad = (PI * 2f) / 360f;
         public const float RadToDeg = 360f / (PI * 2f);

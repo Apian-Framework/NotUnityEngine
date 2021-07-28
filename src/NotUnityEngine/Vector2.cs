@@ -3,11 +3,8 @@ using System;
 
 namespace UnityEngine
 {
-    // ReSharper disable UnusedType.Global
     public struct Vector2 : IEquatable<Vector2>
     {
-        // ReSharper disable MemberCanBePrivate.Global,UnusedMember.Global,FieldCanBeMadeReadOnly.Global,InconsistentNaming,RedundantCast
-        // Resharper disable CompareOfFloatsByEqualityOperator,NonReadonlyMemberInGetHashCode
 
         // fields
         private static readonly Vector2 zeroVector = new Vector2(0f, 0f);
